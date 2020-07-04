@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+
+.top-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top-right{
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.bottom-left{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+.bottom-right{
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+a:hover{
+  color:#fff6a9;
+  }
+  
+h1{
+  color:#fff6a9;
+  margin-left: 170px;
+  font-family:"Bangers";
+  font-size: 2.3em;
+   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  
+  }
+  
+a{
+ text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  
+  text-decoration:none;
+  font-family: "Courgette";
+  margin: 1.5%;
+
+}    
+
+body{
+  background-image: linear-gradient(#020b1e, black);
+
+}
+
+
+#cover{
+  display:block;
+  margin-top:30px;
+  margin-left: 400px;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 520px;
+  height: 620px;
+  border: 1px solid #001060;
+  box-shadow:0px 0px 16px #001060;
+  }  
+  
+#cover img{
+  position: absolute;
+  margin-left: 10px;
+  }
+  
+#cover img:nth-of-type(1){
+  animation-name: fader;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  z-index: 20;
+  }
+  
+#cover img:nth-of-type(2){
+  z-index: 10;
+  }
+  
+#cover img:nth-of-type(n+3){
+  display:none;
+  }  
+  
+@keyframes fader{
+  from { opacity: 1.0;}
+  to { opacity: 0.0;}
+  }  
+  
+img{
+  border-radius: 4px;
+  }  

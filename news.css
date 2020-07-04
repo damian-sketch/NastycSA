@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+.featured{
+  position:relative;
+  border: 1px solid #001060;
+  border-radius:5px;
+  box-shadow: 0px 0px 16px #001060;
+  width: 700;
+  height:470;
+  padding:10px;
+  
+  }
+  
+h1{
+    position:absolute;
+  top: 360px;
+  left: 0;
+  width: 100%;
+  color:white;
+  font-family: "Muli";
+  padding: 12px;
+  }
+  
+span{
+  padding:1px;
+  background: rgba(0, 0, 0, 0.7);
+  }  
+  
+h1 a{
+  text-decoration:none;
+  color: white;
+  }  
+  
+h1 a:hover{
+  text-decoration: underline;
+  }  
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  }  
+
+body{
+   background-image: linear-gradient(#020b1e, black);
+  
+   }  
+
+.others{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px; 
+ 
+   }
+   
+.article{
+  margin: 17px;
+  padding: 15px;
+  border-right: 1px solid white;
+  }   
+  
+.article:last-child{
+  border-right:0;
+  }  
+   
+
+.wrapper{
+  display:grid;
+  grid-template-columns: 70% auto;
+  column-gap: 10px;
+  }
+  
+  
+.navigation{
+  margin: 50px;
+  padding: 10px;
+  }   
+
+.navigation a{
+  text-decoration: none;
+  color: #fff6a9;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  
+  }
+
+.navigation a:hover{
+  color:#f9a301;
+  } 
+  
+h2{
+  margin-left: 10px;
+  font-size: 2.3em;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "Bangers";
+  }  
+  
+.image{
+  margin-top: 20px;
+  height: 190px;
+  
+  }  
+  
+.heading{
+  height: 100px;
+  }
+  
+h3 a{
+  text-decoration: none;
+  font-family: "Muli";
+  color: white;
+  }   
+  
+h3 a:hover{
+  text-decoration: underline;
+  }   
+  
+.footer{
+  
+  left: 0 ;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+  background-color: s#073a54;
+  color: white;
+  padding: 10px;
+  }  
