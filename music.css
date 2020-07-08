@@ -226,8 +226,6 @@ a:hover{
   cursor:pointer;
   padding:6%;
   margin-top:10;
-  
- 
   }
   
 
@@ -281,3 +279,8 @@ img{
 .badhair img:hover{
   background-color:#025c7966;
   }    
+
+.strings img{
+  bottom: 0;
+  left: 0;     
+  }
