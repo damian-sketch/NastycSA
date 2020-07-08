@@ -6,7 +6,7 @@ This is  dummy informational website for South African Musicia Nasty C that give
 such as : All his music, All Breaking News and blog articles , All his tour dates , Merchandise and A Gallery that displays wallpapers and  Video clips.
 ## Setup/Installation Requirements
 * Clone the repository into your desktop
-* Open the "home.html" file with your web browser.
+* Open the "index.html" file with your web browser.
 ## Known Bugs
 On the Home page, the blurred background photos do not fade in sync with the cover photos.
 ## Technologies Used
