@@ -3,7 +3,7 @@
 #### By Cedric Muuo
 ## Description
 This is  dummy informational website for South African Musicia Nasty C that gives all his fans access to various features
-such as : All his music, All Breaking News and blog articles , All his tour dates , Merchandise and A Gallery that displays wallpapers and  Video clips.
+such as : All his music, All Breaking News and blog articles , All his tour dates , SHOPandise and A Gallery that displays wallpapers and  Video clips.
 ## Setup/Installation Requirements
 * Clone the repository into your desktop
 * Open the "index.html" file with your web browser.
