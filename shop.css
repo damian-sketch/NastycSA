@@ -9,8 +9,137 @@
   margin-left: 10px;
   
 }
-
+/*Hoodie images*/
+.image img{
+  width: 400px;
+  height: 400px;
+  
+  
+}
 .cover{
-  border: 1px solid black;
+  border: 1px solid #001060;
+  border-radius:5px;
+  box-shadow: 0px 0px 16px #001060;
+  padding: 5px;
+  width: 800px;
  
+}
+
+body{
+  background-image: linear-gradient(#020b1e, black);
+}
+
+.hoodies{
+  display:grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10px;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color:white;
+}
+
+   /*Navigation bar*/ 
+ .navigation{
+  margin: 50px;
+  padding: 10px;
+  }   
+
+.navigation a{
+  text-decoration: none;
+  color: #fff6a9;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  
+  }
+
+.navigation a:hover{
+  color:#f9a301;
+  } 
+
+/*hoodies buy now*/
+.hoodies .buy{
+  background:#312b2b99;
+  width: 400;
+  height: 0;
+  text-align: center;
+  bottom: -415;
+  overflow: hidden;
+  transition: 0.3s ease;
+  position: absolute;
+  cursor: pointer;
+}  
+
+.image:hover .buy{
+  height: 401;
+}
+
+.image a{
+  
+  color: white;
+  text-decoration: none;
+  
+}
+
+.image a:hover{
+  color: blue;
+}
+
+.shirts{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10px;
+}
+
+/*Shirts buy now*/
+.cop{
+  background:#312b2b99;
+  width: 400;
+  height: 0;
+  text-align: center;
+  bottom: -999;
+  overflow: hidden;
+  transition: 0.3s ease;
+  position: absolute;
+  cursor: pointer;
+}
+
+.image:hover .cop{
+  height: 401;
+}
+
+.image a{
+  
+  color: white;
+  text-decoration: none;
+  
+}
+
+.image a:hover{
+  color: blue;
+}
+
+
+
+.footer{
+  
+  left: 0 ;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+  background-color: s#073a54;
+  color: white;
+  padding: 10px;
+  }  
+  
+ 
+/* Styling for the social media icons in the footer*/
+.logo{
+  width: 20px;
+  padding: 3px;
+  margin-top: 5px;
+  margin-left: 5px; 
 }
